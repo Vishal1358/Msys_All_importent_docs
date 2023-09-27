@@ -1,0 +1,14 @@
+2023-05-31 12:23:59,075 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-05-31 12:23:59,075 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\vhirandagi\AppData\Local\Programs\Python\Python311\Lib\site-packages\instabot\bot\bot.py
+2023-05-31 12:23:59,076 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-05-31 12:24:00,406 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2023-05-31 12:24:00,968 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2023-05-31 12:24:01,532 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2023-05-31 12:24:02,146 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2023-05-31 12:24:07,777 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2023-05-31 12:24:07,778 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXHiRcdpGmYCiLHmkG2WMnO0eYp-kD5wdbziZE1FW2AGDwdcbpNtVhgM0gUPta2PKZS0Cic/AfxBOg9ll6L9Zj5I9gBOzJtjCFOkVNiedsU0AMpyKPt-iRR01u-SS32kWZgnEuzVA0gm9Ky_HMdPXA/","api_path":"/challenge/AXHiRcdpGmYCiLHmkG2WMnO0eYp-kD5wdbziZE1FW2AGDwdcbpNtVhgM0gUPta2PKZS0Cic/AfxBOg9ll6L9Zj5I9gBOzJtjCFOkVNiedsU0AMpyKPt-iRR01u-SS32kWZgnEuzVA0gm9Ky_HMdPXA/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2023-05-31 12:24:07,778 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2023-05-31 12:24:07,778 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2023-05-31 12:24:07,778 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2023-05-31 12:24:09,135 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2023-05-31 12:24:09,135 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'D:/Resume/Vishal_Hirandagi.jpg' is not uploaded.

@@ -1,0 +1,18 @@
+First create virtualenv
+cmd-> pip install virtualenv -> then -> virtualenv env--> it will create env file
+
+next we have to run execution policy 
+cmd-> Set-ExecutionPolicy unrestricted --> if it is getting error in terminal then we have to run in powershell --> Set-ExecutionPolicy unrestricted --> then it will ask Execution policy change if you want Yes press A enter
+
+create env
+cmd-> vertualenv env
+
+next envirement activate
+cmd-> .\env\Scripts\activate.ps1 -->(env) it comes in path line it is activated
+
+install flask
+cmd-> pip install flask
+
+create app file like app.py write code and run app.py
+
+create dir static and templates

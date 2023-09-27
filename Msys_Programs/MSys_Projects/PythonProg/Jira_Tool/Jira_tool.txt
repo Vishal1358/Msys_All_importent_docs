@@ -1,0 +1,54 @@
+Jira_Tool
+------------------
+
+Test Management Tools
+Bug Reporting & tracking Tools
+
+Agile Tools
+	-Jira, VersionOne, Temcity.....
+
+Jira --> Agile Management Tool
+
+How to install and configrution
+Cloud : 
+	--> Pro(Licensed)
+	--> Free version: 10 users/ 30 days
+
+Link: htttps://www.atlssian.com/software/jira/free
+
+Agile scrum activities
+----------------------
+1) How to create project in Jira --> Click
+2) How to add users/people in Jira
+
+3) How to create Backlog -->Epic
+4) How to create stories in Jira & add story points
+
+5) Creating sprint in Jira
+6) Adding user stories to sprint
+7) Starting sprint
+
+8) Addig sub-task to story
+9) Sprint life cycle
+
+Test Management Activities (Zephyr)
+-----------------------------------
+
+1) Test cases
+2) Test cycle
+3) update test case passes/failed/blocked
+4) Report bugs
+5) Reports
+
+
+How to install zephyr plugin
+How to create Test case in Jira Manually
+How to import mutiple test cases in to Jira tool
+
+Creating test cycles
+Add test cases to cycle
+Execute/Update Test cases
+Reporting Bugs
+Reports in Zephyr
+Traceability Matrix
+

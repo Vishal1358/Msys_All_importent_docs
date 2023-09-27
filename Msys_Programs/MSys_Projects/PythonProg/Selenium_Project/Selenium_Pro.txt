@@ -1,0 +1,200 @@
+Selenium Hybrid Framework
+(Python, Selenium, PyTest, Page Object Model, HTML Remports)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+What is Framework?
+Framework is an organized way of maintaining automation files.
+In the framework all the files will communicate each other to perform certain task.
+
+Objective/Goals:
+
+1) Re-usuablility
+2) Maintainability
+
+types
+-------
+1) Bult-in frameworks
+	pytest, robotframework, unnittest etc..
+
+2) Customized/User defined frameworks
+	Datadriven framework, Keyword driven framework, Hybrid driven framework
+
+Phases
+-----------------
+
+1) Analyze application, technology & skill set of term, choose test cases
+
+100 TC's ....
+
+Re-test cases(test data)
+Re-gression cases
+TC's can be automatable
+
+100 % automation??
+
+2) Design & Implementation of framework
+
+3) Execution
+
+4) Maintanance( Version control system)
+
+eCommerce Application....
+
+Frontend : https://demo.nopcommerce.com/
+Bankend : https://admin-demo.nopcommerce.com
+
+
+
+
+Selenium Hybrid Framework
+(Python, Selenium, PyTest, Page Object Model, HTML Remports)
+==============================================================
+
+Step 1: Create new Project & install Required Package/plugins
+	
+	* Selenium : Selinum Libraries
+	* Pytest : Python UniTest Framework
+	* pytest-html : PyTest HTML Repoets
+	* pytest-xdist : Run Tests Parallel
+	* Openpyxl : MS Excel Support
+	* Allure-pytest : to generate allure reports
+
+Step 2: Create Folder Structure
+	
+	Project Name
+		|
+		pageObject(Package)
+		|
+		TestCase(Package)
+		|
+		utilities(Package)
+		|
+		TestData(Folder)
+		|
+		Configurations(Folder)
+		|
+		Logs(Folder)
+		|
+		Screenshots(Folder)
+		|
+		Reports(Folder)
+		|
+		Run.bat
+
+Step 3: Automation Login Test Case
+	3.1: Create LoginPage Object Class under "pageObject"
+	3.2: Create LoginTest under "testCase"
+	3.3: Create conftest.py under "testCase"
+
+Step 4: capture screenshots on failures
+	4.1: Update Login Test with Screen under "testCases"
+
+Step 5: Read common values from ini file
+	5.1: Add "config.ini" file in "Configuration" folder.
+	5.2: Create "readProperties.py" utility file under utilities package to read common data
+	5.3: Replace hard coded values in Login test case.
+
+Step 6: Adding logs to test case
+
+	6.1: Add customLogger.py under utilities package
+	6.2: Add logs to Login test case.
+
+Step 7: Run Tests on Desired Browser/Cross Browser/Parallel
+	
+	7.1: update contest.py with required Fixtures which will accept command line argument (browser).
+	7.2: Pass browser name as argument in command line
+	
+	To Run tests on desired browser
+	pytest -s -v testCases/test_login.py --browser chrome	
+	pytest -s -v testCases/test_login.py --browser firefox
+
+	To Run parallel
+	pytest -s -v -n=3 testCases/test_login.py --browser chrome		
+	pytest -s -v -n=3 testCases/test_login.py --browser firefox
+
+Step 8: Generate pytest HTML Reports
+	
+	8.1: Update conftest.py with pytest hooks
+	8.2: To Generate HTML report run below command:
+pytest -s -v -n-3 --html=Reports\report.html testCase/test login.py --browser chrome
+
+Step 9:Automating Data Driven Test Case
+	
+	9.1: Prepare test data in Excel sheet. place the excel file inside the TestData folder.
+	9.2: Create "ExcelUtils.py" utility class utilities package
+	9.3: Create LoginDataDrivenTest under testCase
+	9.4: Run the test case
+
+Step 10: Adding new testcase
+
+Step 11: Grouping Test
+	11.1: Grouping markers(Add markers to every test method)
+	@pytest.mark.sanity
+	@pytest..markregression
+
+	11.2: Add marker entries in pytest.ini file
+	pytest.ini
+	----------
+	[pytest]
+	markers=
+	  sanity 
+	  regression
+
+	113: Select groups at run time
+	-m "sanity"
+	-m "regression"
+	-m "sanity and regression"
+	-m "sanity or regression"
+
+	Run Command:
+	------------
+	pytest -s -v -m "sanity or regression" --html=./Report/report.html testCase/ --browser chrome
+
+Step 12: Run Test in Command Prompt & run.bat file
+	12.1: Create run.bat file
+
+pytest -s -v -m "sanity" --html=./Report/report.html testCase/ --browser chrome
+
+	12.2: Open command prompt as Administrator and then run run.bat file
+
+Step 13: Push the Code to Git & GitHub Repository 
+
+	1st Round
+	---------
+	
+	Initial step(only one time)
+	   1) git init --> Create an Empty git repository(Local repository)
+
+	2) git remote add origin "http://github.com/pavanoltraining/nopCommerce_Hybrid.git"
+
+	Before doing commit first time we need to execute these below commands
+		git config --global user.name "pavan"
+		git config --global user.email "pavanoltraining@gmail.com"
+
+	3) git status
+	4) git add -A --> add all the files in to staging/indexing area
+	5) git commit -m "comment"
+	6) git push -u origin master
+
+	2nd Round
+	---------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

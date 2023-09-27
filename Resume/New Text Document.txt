@@ -1,0 +1,92 @@
+To secure a challenging position as a Software Engineer, leveraging my one year of experience in the field, technical skills, and passion for software development. I aim to contribute to a dynamic team, actively participate in the design and development of innovative software solutions, and continue expanding my knowledge and expertise in the industry.
+
+ Kumud Ben Darbar Collage Of B.C.A, Vijayapur 586101 
+Kumud Ben Darbar Collage Of B.C.A, Vijayapur 586101 
+
+www.linkedin.com/in/
+vishal-hirandagi-591725235
+
+Bachelor Of Computer Application(B.C.A), Kumud Ben Darbar Collage Of B.C.A, Vijayapur 586101  
+Bachelor Of Computer Application(B.C.A), Kumud Ben Darbar Collage Of B.C.A, Vijayapur 586101  
+
+Automation of Company Portal | Python, Selenium
+• Automated the Keka portal(company portal) using selenium library importing webdriver and service login to the Keka portal and searching the employee print and display in the PyCharm editor.
+• Implemented Selenium to create an instance of Chrome in order to interact with the correct elements of the web page.
+• Executed the script in command prompt and also run few own test cases in the command prompt
+Weather application using Python Tkinter | Python, Tkinter
+• Designed the basic window using Tkinter package of python and designed the display with the label and background
+• Used the weather API from website ‘Open weather’ and linked  the API with code using request module
+• Finally displayed the results of the current weather condition of a particular city on the Tkinter window
+
+
+Training Project - GUI Weather Application MSys technologies
+Role: Software Engineer Duration: June 2022 - August 2022
+
+During my tenure as a software engineer, I actively participated in a training project focused on developing a graphical user interface (GUI) weather application using the Tkinter library in Python. This project allowed me to apply my programming skills and gain practical experience in GUI application development.
+
+Responsibilities:
+
+Collaborated with a team of trainees and mentors to design and develop a weather application with a user-friendly interface using Python and the Tkinter library.
+Implemented features such as displaying current weather conditions, hourly and daily forecasts, and a search functionality to retrieve weather information for different locations.
+Utilized API integration to fetch real-time weather data and parse the response to display relevant information on the application's interface.
+Designed and implemented responsive layouts and intuitive user interactions, ensuring an enhanced user experience.
+Conducted testing to ensure the accuracy and reliability of the weather data displayed in the application.
+Participated in code reviews and incorporated feedback from mentors to improve the quality and efficiency of the codebase.
+Documented the project, including the application's functionality, code structure, and API integration, to facilitate knowledge sharing within the team.
+Achievements:
+
+Successfully completed the GUI weather application project, demonstrating proficiency in Python programming, Tkinter library, and API integration.
+Developed a user-friendly and visually appealing interface, providing users with a seamless experience in accessing and viewing weather information.
+Showcased problem-solving skills by overcoming challenges such as handling API responses, error handling, and data parsing.
+Contributed to effective teamwork by actively participating in team discussions, sharing ideas, and collaborating with fellow trainees and mentors.
+This training project in GUI weather application development enhanced my technical skills, particularly in Python, Tkinter, and API integration. It demonstrated my ability to work in a team, follow project requirements, and deliver a functional and user-friendly application. Although a training project, it showcased my dedication to learning and applying new technologies, setting the stage for further growth in software development
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Developed a clean and intuitive user interface using Tkinter, allowing users to input their desired location and retrieve weather data with ease.
+Integrated a weather API (e.g., OpenWeatherMap) to fetch real-time weather information based on the user's input.
+Parsed the API response to extract relevant weather details such as temperature, weather conditions, wind speed, humidity, and sunrise/sunset times.
+Implemented visual representations of weather conditions using icons to enhance the user experience and facilitate quick interpretation of weather information.
+Added features like a refresh button for updating weather data, a history section to store recent searches, and the option to switch between Celsius and Fahrenheit temperature units.
+Ensured a smooth and seamless user experience by handling errors, providing appropriate feedback, and optimizing the application's performance.

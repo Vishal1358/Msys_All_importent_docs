@@ -1,0 +1,127 @@
+Manual Testing Project
+======================
+Project interoduction
+Understanding and Explore the Functionality
+Estimation
+Test plan
+Writing test Scenarios
+Writing Test Cases & Reviews
+Environment Setup & Build deployment
+Test Execution
+Bug Reporting & Tracking
+Sanity Testing, Re-Testing & Regression Testing
+Test Sign off
+
+Project Vs Product
+
+Project introduction
+--------------------
+Product
+eCommerce product/Application
+
+eCommerce
+--------------
+	Login
+	Search for products/items
+	Add then to cart
+	Do payment
+	Product will be delivered.
+	Returns the product
+	etc....
+
+Frontend  -- public
+Backend -- Admins
+
+Front End Store URL: http://localhost/opencart/upload/
+https://docs.google.com/spreadsheets/d/1ORiHXzwwTeSlgsM98jiD3NOIjU_fHuzp/edit?usp=drive_link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
